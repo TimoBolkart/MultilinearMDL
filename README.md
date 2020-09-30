@@ -1,6 +1,6 @@
 ## A Groupwise Multilinear Correspondence Optimization for 3D Faces
 
-The provided program jointly optimizes a multilinear face model and the registration of the face scans used for model training as described in this [scientific publication](https://hal.inria.fr/hal-01205460/document). 
+The provided program jointly optimizes a multilinear face model and the registration of the face scans used for model training as described in this [scientific publication (ICCV 2015)](https://hal.inria.fr/hal-01205460/document). 
 
 ### Setup
 
