@@ -29,7 +29,7 @@ only).
 * textureCoordsFile - File that contains the initial discrete parametrization in the same order as the
 vertices of each registered face.
 
-##### Optimization:
+##### Optimization
 To run the multilinear registration optimization, MM MDL.exe must be called with following seven parameters, separated by a blank.
 * -opt - Option to compute the multilinear registration optimization.
 * dataFolder - Directory that contains the registered data, the thin-plate splines, and the file collections.
@@ -40,7 +40,7 @@ name only).
 * innerBoundaryFile - File that contains the vertex indices of the inner boundary vertices.
 * outFolder - Output directory
 
-##### File specifications:
+##### File specifications
 The faces need to be provided in an OFF-file format. Let Id i Exp e.off denote the face of identity i in expression e. The fileCollection container for faces of I identities in E expressions is required in following format:
 ```
 E #Expressions
@@ -62,13 +62,13 @@ Id I Exp 2.off
 Id I Exp E.off.
 ```
 
-##### Example:
+### Example
 The example RunMM_MDL.cmd optimizes the multilinear correspondences for a dataset of four identities in three expressions each. First, RunMM_MDL.cmd computes the thin-plate splines for each face and second, RunMM_MDL.cmd optimizes the correspondence.
 
-##### License
+### License
 The source is provided for NON-COMMERCIAL RESEARCH PURPOSES only, and is provided as is WITHOUT ANY WARRANTY; without even the implied warranty of fitness for a particular purpose. The redistribution of the code is not permitted.
 
-##### Citing
+### Citing
 
 When using this code in a scientific publication, please cite 
 ```
