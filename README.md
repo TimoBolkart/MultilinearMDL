@@ -5,7 +5,6 @@ The provided program jointly optimizes a multilinear face model and the registra
 <p align="center"> 
 <img src="img/MultilinearMDL.png" width="50%">
 </p>
-Figure: Overview of the iterative multilinear registration process. 
 
 ### Setup
 
