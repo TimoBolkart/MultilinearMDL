@@ -3,7 +3,7 @@
 The provided program jointly optimizes a multilinear face model and the registration of the face scans used for model training as described in the scientific publication (ICCV 2015) [[paper](https://hal.inria.fr/hal-01205460/document)] [[supplemental](https://hal.inria.fr/hal-01205460/file/Supplemental.pdf)] [[video](https://hal.inria.fr/hal-01205460/file/SupplementaryVideo.avi)] 
 
 <p align="center"> 
-<img src="img/MultilinearMDL.png">
+<img src="img/MultilinearMDL.png" width="50%">
 </p>
 
 ### Setup
