@@ -12,7 +12,7 @@ The provided code has dependencies on the following libraries:
 * Insight Segmentation and Registration Toolkit ITK (http://www.itk.org/). We recommend using ITK 4.50.
 * Clapack (http://www.netlib.org/clapack/). Clapack must be compiled using Blas (USE BLAS WRAP must be enabled when using CMake). We recommend using Clapac 3.2.1.
 
-To setup the provided code, use CMake and specify the required ITK and Clapack paths. Successfully compiling the project outputs a MM_MDL.exe.
+To setup the provided code, use CMake and specify the required ITK and Clapack paths. Successfully compiling the project outputs a MM_MDL.exe. The provided code has been developed and tested under Windows 7.
 
 ### Basic usage
 
