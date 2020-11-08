@@ -16,10 +16,10 @@ To setup the provided code, use CMake and specify the required ITK and Clapack p
 
 ### Basic usage
 
-Given an initially registered 3D face database, MM MDL.exe optimizes the per-vertex correspondence by re-parametrizing each shape. This optimization requires an initial discrete 2D parametrization together with a thin-plate spline that defines a continuous mapping from 2D parameter space to the surface of each face. To compute thin-plates for an initial parametrization, MM MDL.exe must be called with the option −tps, to optimize multilinear correspondence, MM MDL.exe must be called with the option −opt.
+Given an initially registered 3D face database, MM_MDL.exe optimizes the per-vertex correspondence by re-parametrizing each shape. This optimization requires an initial discrete 2D parametrization together with a thin-plate spline that defines a continuous mapping from 2D parameter space to the surface of each face. To compute thin-plates for an initial parametrization, MM MDL.exe must be called with the option −tps, to optimize multilinear correspondence, MM MDL.exe must be called with the option −opt.
 
 ##### Parametrization
-To compute thin-plates for an initial descrete parametrization, MM MDL.exe must be called with following five parameters, separated by a blank.
+To compute thin-plates for an initial descrete parametrization, MM_MDL.exe must be called with following five parameters, separated by a blank.
 * -tps - Option to compute the thin-plate splines.
 * dataFolder - Directory that contains the registered data and the file collection (also output folder).
 * fileCollection - Container file with the file names of all faces used to learn the multilinear model (file
@@ -30,7 +30,7 @@ only).
 vertices of each registered face.
 
 ##### Optimization
-To run the multilinear registration optimization, MM MDL.exe must be called with following seven parameters, separated by a blank.
+To run the multilinear registration optimization, MM_MDL.exe must be called with following seven parameters, separated by a blank.
 * -opt - Option to compute the multilinear registration optimization.
 * dataFolder - Directory that contains the registered data, the thin-plate splines, and the file collections.
 * fileCollection - Container file with the file names of all faces used to learn the multilinear model (file
