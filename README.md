@@ -16,7 +16,7 @@ To setup the provided code, use CMake and specify the required ITK and Clapack p
 
 ### Basic usage
 
-Given an initially registered 3D face database, MM_MDL.exe optimizes the per-vertex correspondence by re-parametrizing each shape. This optimization requires an initial discrete 2D parametrization together with a thin-plate spline that defines a continuous mapping from 2D parameter space to the surface of each face. To compute thin-plates for an initial parametrization, MM MDL.exe must be called with the option −tps, to optimize multilinear correspondence, MM MDL.exe must be called with the option −opt.
+Given an initially registered 3D face database, MM_MDL.exe optimizes the per-vertex correspondence by re-parametrizing each shape. This optimization requires an initial discrete 2D parametrization together with a thin-plate spline that defines a continuous mapping from 2D parameter space to the surface of each face. To compute thin-plates for an initial parametrization, MM_MDL.exe must be called with the option −tps, to optimize multilinear correspondence, MM_MDL.exe must be called with the option −opt.
 
 ##### Parametrization
 To compute thin-plates for an initial descrete parametrization, MM_MDL.exe must be called with following five parameters, separated by a blank.
